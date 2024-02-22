@@ -1,0 +1,27 @@
+*{
+    background-color: #EFECEC;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+
+}
+
+img{
+   
+    width: 300px;
+    border :2px solid black;
+    border-radius: 13px;
+}
+h1{
+    text-align: center;
+}
